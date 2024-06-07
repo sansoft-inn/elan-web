@@ -14,6 +14,7 @@ const TileButton = ({ musicPath, tileImg }) => {
       <ReactHowler
         src={musicPath}
         playing={playing}
+        loop={true}
       />
       <button
         className={`custom-button ${playing ? 'highlighted' : ''}`}
