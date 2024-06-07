@@ -1,0 +1,16 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+.img {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tile-button-container {
+    width: 100%;
+}

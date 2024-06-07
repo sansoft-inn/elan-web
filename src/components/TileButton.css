@@ -1,0 +1,19 @@
+.custom-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+}
+
+.button-image {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 5px;
+}
+  
+.custom-button.highlighted {
+  background-color: white;
+}
